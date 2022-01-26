@@ -1,0 +1,121 @@
+<!doctype html>
+
+<!-- 여기가 메인으로 바꿀곳.
+-->
+
+
+<html>
+  <head>
+    <title> what's this? </title>
+    <meta charset="utf-8">
+    <style>
+      a{
+        text-decoration: none;
+        font:30px;
+      }
+      a:link{
+        color:black
+      }
+      a:visited{
+        color:black
+      }
+
+      h{
+
+        font-family:'jaemok';
+      }
+
+      h1{
+        margin:0;
+      }
+      h2{
+        margin: 0;
+        padding:1px;
+        font-family: 'naeyong';
+        font-size: 30px;
+        font-weight:bolder;
+      }
+      ul{
+        list-style: none;
+        padding-left:1px;
+        font-family: 'naeyong';
+
+
+      }
+
+      #grid
+      {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        font-size: 18px;
+      }
+
+      #grid2
+      {
+        padding:10px;
+        padding-left:20px;
+        padding-top: 1px;
+        font-style: 'naeyong';
+
+      }
+      #what{
+        color:rgb(230,0,30);
+      }
+      .what2{
+        color:red;
+      }
+      @font-face
+      {
+        font-family: 'jaemok';
+        src: url('/Users/jangbou/Desktop/web/jaemok.ttf') format('truetype');
+      }
+
+      @font-face
+      {
+        font-family: 'naeyong';
+        src: url('/Users/jangbou/Desktop/web/naet=yong.ttf') format('truetype');
+      }
+
+
+
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1> <img src="arsenal2.png" border="0" width="80" height="80">
+    </h1>
+    <h2><a href="what.html"> Arsenal Family</a></h1>
+    <!--
+    div 부모태그 안에
+    ul 이랑 div(h2+ol)2개의 자식
+
+    -->
+    <div id="grid">
+      <ul >
+        <div id="what">
+          <li><a href="what.html" class="what2"> what's this</a></li><br><br>
+        </div>
+        <li><a href="diary.html"> gunner's diary</a></li><br><br>
+        <li><a href="vlog.html"> gunner's v-log</a></li><br><br>
+        <li><a href="penpic.html"> gunner's penpic</a></li><br><br>
+        <li><a href="song.html"> Arsenal Song</a></li>
+      </ul>
+
+
+     <div id="grid2">
+      <h3>what to do?</h2>
+        <ol>
+          <br><br><br>
+
+          <li>We are keeping peace of arsenal</li>
+          <li> winning day and losing day both today is arse nal.</li>
+          <li> 3 people x 3 human doing = 9nner </li>
+        </ol>
+      </div>
+    </div>
+  </body>
+
+</html>
